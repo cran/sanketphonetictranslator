@@ -1,0 +1,13 @@
+cd83d38b79fa82f53998ffd137d5fba8 *DESCRIPTION
+4acc320c50f1719c949658843849be28 *NAMESPACE
+66e013f1fa01bbe2b1b3cd62cf870dac *R/dataset.R
+e97919e7b787ff41c8f4c728a7316d3d *R/transliterate_dataset.R
+7761ef634a3e18ad434950731317d42f *build/vignette.rds
+46351cfdcd4b547433fb5e5d20911ef5 *data/dataset.csv
+7f24ee95363b955ebc2f75e67939ab9d *data/dataset.rda
+1f0959e909d67221a5ec599813feeb1a *inst/doc/Introduction.R
+bc7fc3d16e8839638e740e7af5b59782 *inst/doc/Introduction.Rmd
+ab4c2f92acc970705882ce85ef6134d7 *inst/doc/Introduction.html
+7332c345a8a88ae8c2bdf9537006d6b4 *man/dataset.Rd
+03d451ee3fa3b97d753f69e6076f7ef5 *man/transliterate_dataset.Rd
+bc7fc3d16e8839638e740e7af5b59782 *vignettes/Introduction.Rmd

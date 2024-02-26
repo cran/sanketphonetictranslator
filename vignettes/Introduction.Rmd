@@ -1,0 +1,58 @@
+---
+title: "Introduction"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+# Introduction
+This is a versatile R package designed to streamline phonetic transliteration between Hindi and English languages. This package serves as a valuable tool for individuals, researchers, and businesses working with multilingual data or requiring seamless translation between Hindi and English datasets.
+
+# Installation
+
+You can install the sanketphonetictranslator package from CRAN using the following command:
+  
+```r
+install.packages(sanketphonetictranslator)
+```
+
+Or you can install the development version from GitHub:
+  
+```r
+remotes::install_github("metalwings-design/SanketPhoneticTranslator")
+```
+
+# Usage
+To use the package, first load it into your R session:
+
+
+```{r setup}
+library(sanketphonetictranslator)
+```
+
+
+# Dataset Transliteration
+You can also transliterate entire datasets using the transliterate_dataset function:
+  
+  
+```r
+#load data
+data("dataset")
+data <- dataset
+
+# Transliterate the dataset from Hindi to English
+translated_data <- transliterate_dataset(data, "hindi2english")
+
+# View the first few rows of the translated dataset
+head(translated_data)
+```
